@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #D1DCDF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5rem 5rem;
+    margin: 0;
+
+}
+.wrapper{
+    background-color: #F5F8F9;
+    width:1100px;
+    height:800px;
+    display: grid;
+    padding:1rem 1rem;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+/* LEFT SIDE OF THE DASHBOARD */
+.left{
+    background-color: #fff;
+    padding:3rem 3rem;
+    border-radius: .5rem;
+    height: 700px;
+
+}
+
+.left .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left .navbar .logo{
+    font-weight: 500;
+}
+
+.left .navbar .accord{
+    background-color: #F5F8F9;
+    display: flex;
+    align-items: center;
+    border-radius: 999px;
+}
+.left .navbar .accord img{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.left .navbar .accord p{
+    margin-left: 10px;
+}
+.left .navbar .accord i{
+    margin-left: 20px;
+}
+
+
+.left .payment{
+    display: flex;
+    font-weight: 300;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 3rem;
+}
+.left .payment h1{
+    font-weight: 400;
+    
+}
+.left .payment .card{
+    display: flex;
+    align-items:flex-start;
+    margin-bottom: 7px;
+}
+.left .payment .secured .card p{
+    font-weight: 500;
+    margin-left: 10px;
+}
+.left .payment .text{
+    color: #C0C0C0;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 30px;
+}
+.left .tabs{
+    display: flex;
+   border-bottom: 1px solid #C0C0C0;
+    margin-top: 1rem;
+}
+.left .tabs .credit{
+  border-bottom: 2px solid  black ;
+  padding-bottom: 1rem;
+  margin-right: 3rem;
+}
+.left .tabs .other{
+    color: #C0C0C0;
+    margin-right: 3rem;
+}
+
+.left .payment-method{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap:40px;
+    align-content: center;
+}
+.left .payment-method .form .form-control {
+    margin-bottom: 1.5rem;
+}
+.left .payment-method .form .form-control label{
+   font-weight: 400;
+    display: block;
+    color: #C0C0C0;
+    font-size: 15px;
+    margin-bottom: .5rem;
+}
+.left .payment-method .form .form-control input{
+    padding:1rem 2rem;
+    background-color:#F5F8F9;
+    border:none;
+    width:100%;
+    border-radius: 5px;
+}
+.left .payment-method .form .form-control input::-webkit-input-placeholder{
+    color:black;
+}
+.left .payment-method .form .exp{
+    display: flex;
+}
+
+.left .payment-method .form .form-control.fifty input{
+    width:70%;
+}
+.left .payment-method .form .btn{
+    padding:1rem 1rem;
+    background-color: black;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+}
+.left .payment-method .form .btn.trans{
+    background-color: transparent;
+    color:#C0C0C0;
+}
+
+
+/* RIGHT SIDE OF THE DASHBOARD */
+.right{
+    background-color: transparent;
+    padding:3rem 2rem;
+    border-radius: .5rem;
+    height: 700px;
+}
+.right h1{
+    font-weight: 400;
+}
+.right .steps{
+    margin-top:3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.right .step{
+    display: flex;
+    align-items: center;
+}
+.right .step p{
+    color:#969898;
+    font-size: 13px;
+}
+.right .step i{
+    background-color: #CED9FD;
+    color:#364370;
+    padding:.6rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 7px;
+}
+.right .step.step2 p span{
+    color:black;
+
+}
+.right .step.step2 i{
+    background-color: #F9CBA0;
+    color:#C78A54;
+    padding:.6rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 7px;
+}
+.right .step.step3 i{
+    background-color: #BEDCA7;
+    color:#789263;
+    padding:.6rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 7px;
+}
+.right .product-details{
+    margin-top: 4rem;
+}
+.right .product{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}
+.right .price-details{
+    margin-top: 2rem;
+}
+.right .price-list{
+    display: flex;
+    margin-bottom: .5rem;
+    justify-content: space-between;
+    align-items: center;
+    margin:2rem;
+}
+.right .price-list p{
+    color:#727374;
+    font-size: 13px;
+}
+.right .price-list .price{
+    color:black;
+}
+.right .price-list.total .price{
+    color:black;
+    font-weight: bold;
+    font-size: 19px;
+
+}
