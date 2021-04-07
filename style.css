@@ -72,7 +72,8 @@ body{
     margin-top: 3rem;
 }
 .left .payment h1{
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 22px;
     
 }
 .left .payment .card{
@@ -160,7 +161,8 @@ body{
     height: 700px;
 }
 .right h1{
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 22px;
 }
 .right .steps{
     margin-top:3rem;
